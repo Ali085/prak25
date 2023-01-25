@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li,ul,a{
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+}
+a{
+    color: inherit;
+    cursor: pointer;
+}
+
+nav{
+    width: 100%;
+    background-color: black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    .navDiv{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        align-items: baseline;
+        .navLogo{
+            padding: 10px;
+            p{
+                font-size: 20px;
+            }
+        }
+        ul{
+            display: flex;
+            color: rgb(177, 175, 175);
+            li{
+                padding: 10px;
+            }
+        }
+    }
+}
